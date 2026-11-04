@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'Práctica 3: Sistema Musculoesquelético'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Diego
+    family-names: Macias Armenta
+    email: l23212212@tijuana.tecnm.mx
+    affiliation: TecNM / IT Tijuana
+repository-code: 'https://github.com/l23212212/MSFP3'
+keywords:
+  - Sistema musculoesquelético
+  - modelado fisiológico
+  - análisis matemático
+  - simulación computacional
+  - MATLAB
+  - Python
+  - Ingeniería Biomédica
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2026-11-03'
