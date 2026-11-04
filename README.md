@@ -36,27 +36,14 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 
 En esta práctica se aborda el modelado computacional de un compartimento del sistema musculoesquelético basado en el modelo mecánico propuesto por M. C. Khoo (Sección 2, Pág. 26). El modelo describe la relación entre la fuerza desarrollada por el elemento contráctil activo ($F_0 = \alpha F(t)$ con $0 < \alpha < 1$), la resistencia de amortiguación viscosa del tejido ($R$) y las propiedades de almacenamiento elástico del sarcolema ($C_p$, en paralelo) y los tendones musculares ($C_s$, en serie).
 
-A través de la analogía electromecánica directa, los elementos en paralelo mecánicos se transforman en elementos en serie en el dominio eléctrico y viceversa. Se analiza el comportamiento dinámico bajo dos condiciones clínicas específicas:
-
-| Parámetro | Control (Sano) | Caso (Atrofia Muscular) |
-|---|---|---|
-| Fuerza $F(t)$ | $1\text{ V}$ | $1\text{ V}$ |
-| Factor $\alpha$ | $0.25$ | $0.25$ |
-| Complancia serie $C_s$ | $10\text{ }\mu\text{F}$ | $10\text{ }\mu\text{F}$ |
-| Complancia paralelo $C_p$ | $100\text{ }\mu\text{F}$ | $100\text{ }\mu\text{F}$ |
-| Amortiguación / Resistencia $R$ | $100\text{ }\Omega$ | $10\text{ k}\Omega$ |
-
 Palabras clave: Sistema musculoesquelético; Analogía fuerza-voltaje; Teorema de superposición; Atrofia muscular; Controlador PID; Khoo.
 
 ## Lista de archivos incluidos en el repositorio
 
-1. **`Practica3.m` / `Practica3.mlx`**: Script de MATLAB para la definición de parámetros ($C_p, C_s, R, \alpha$), cálculo de la función de transferencia por superposición, análisis de estabilidad, error en estado estacionario y graficación de respuestas.
-2. **`Practica3.slx`**: Modelo dinámico en Simulink del sistema musculoesquelético en lazo abierto y lazo cerrado con el bloque `PID Controller` sintonizado.
-3. **`signal.xlsx`**: Archivo con las señales de respuesta al impulso exportadas de la simulación.
-4. **`Practica3_Python.py`**: Script de Python para resolver la respuesta a la función impulso en el intervalo $t \in [0, 10]\text{ s}$.
-5. **`Practica3_Multisim.ms14`**: Esquemático y simulación del circuito eléctrico análogo en NI Multisim.
-6. **`BioRender_Diagram.png`**: Diagrama biológico del compartimento neuromuscular obtenido con BioRender.com.
-7. **Imágenes y gráficas**: Comparativas en formato `.pdf` y `.png` (Control vs Caso en lazo abierto y lazo cerrado).
+1. Scripts de MATLAB para inicialización de parámetros, resolución del modelo de EDOs y graficación `plotsignals` [`.m` o `.mlx`].
+2. Modelo de Simulink del sistema musculoesquelético y los controladores PID `Practica3.slx` [`.slx`].
+3. Archivo de datos extraído de la simulación `signal.xlsx` [`.xlsx`].
+4. Imágenes de las simulaciones y comparativas (Hipotónico vs Normotónico vs PID, etc.) [`.pdf` y `.png`].
 
 ## Referencias
 
