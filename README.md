@@ -42,8 +42,7 @@ Palabras clave: Sistema musculoesquelético; Analogía fuerza-voltaje; Teorema d
 
 1. Scripts de MATLAB para inicialización de parámetros, resolución del modelo de EDOs y graficación `plotsignals` [`.m` o `.mlx`].
 2. Modelo de Simulink del sistema musculoesquelético y los controladores PID `Practica3.slx` [`.slx`].
-3. Archivo de datos extraído de la simulación `signal.xlsx` [`.xlsx`].
-4. Imágenes de las simulaciones y comparativas (Hipotónico vs Normotónico vs PID, etc.) [`.pdf` y `.png`].
+3. Imágenes de las simulaciones y comparativas (Hipotónico vs Normotónico vs PID, etc.) [`.pdf` y `.png`].
 
 ## Referencias
 
